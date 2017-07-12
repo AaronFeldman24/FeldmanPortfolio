@@ -1,0 +1,5 @@
+I chose two datasets, one that was suitable for regression, and one that was suitable for classification. 
+
+The classification dataset was on the top five teams from the English Premier Soccer League, and I used the predictor columns and a Perceptron algorithm to predict whether the players made their national team. I also created a kNN algorithm and compared the two, and found that kNN was more effective.
+
+The regression dataset had numeric variables on homes, which I used to predict the value of specific homes. I used an SGDRegressor and Random Forest Trees and determined that the Random Forest Trees performed better.
