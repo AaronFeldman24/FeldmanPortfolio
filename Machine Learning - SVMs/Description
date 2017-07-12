@@ -1,0 +1,1 @@
+In this program, I used a Support Vector Machine to identify faces from the "Random Faces in the Wild" dataset. In this program, I also use Principal Component Analysis to examine the most important covariates (in this case, individual pixels) to make the program more accurate and run faster. I also ran a grid search to find the ideal set of parameters.
