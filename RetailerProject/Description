@@ -1,0 +1,15 @@
+In this project, we were given data on how much of a given product was sold for a retailer. We knew that consumers did not have 
+much loyalty to this product, and were therefore highly price sensitive. We hypothesized, therefore, that the most significant 
+predictors of quantity sold were the prices of the other top brands. So we built several models for quantity sold for the top five
+brands of the product that looked like this:
+
+where Q stands for quantity sold and S stands for price. 
+model1 = lm(Q1~S1+S2+S3+S4+S5)
+model2 = lm(Q2~S1+S2+S3+S4+S5)
+
+Using the weights from these models, we entered them into an excel workbook. If one enters the prices that the retailer intends
+to sell the products at as well as the prices they buy the products from the manufacturers at, the excel document will produce
+an accurate estimate of quantity sold and profit. 
+
+This folder contains that excel document, the presentation given to HyVee professionals, and the general outline of how the 
+models were constructed. 
